@@ -1,0 +1,76 @@
+.arena-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    color: white;
+}
+
+.boss-container{
+    height: 400px;
+    width: 400px;
+}
+
+.boss-container .boss-image{
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.hero-container{
+    height: 400px;
+    width: 400px;
+    
+}
+
+.hero-container .hero-image{
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+
+}
+
+.boss-name, .hero-name{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.attack-container{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+.attack-button{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding:3px 5px ;
+    border: none;
+    cursor: pointer;
+}
+
+.health-bar{
+    background-color: rgb(81,81,81);
+    width: 80%;
+    margin: auto;
+    padding: 2px 5px;
+    border-radius: 32px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.bar{
+    height: 70%;
+    border-radius: 32px;
+    background-color: rgb(229,153,96);
+}
+
+

@@ -1,0 +1,53 @@
+.selectNft{
+    color: white;
+    padding-top: 20px;
+}
+
+.selectNft > h1 {
+    margin-bottom: 20px;
+}
+
+.select-warrior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.warrior-container{
+    /* background-color: antiquewhite; */
+    padding: 20px;
+    min-height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.warrior-container .warrior-name{
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+
+}
+
+.warrior-container .warrior-image{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.warrior-container .warrior-mint-button{
+        width: 30%;
+    align-self: center;
+    padding: 9px 0px;
+    outline: none;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.warrior-container .warrior-mint-button:hover{
+    background-color: #A3B0C3;
+    color: white;
+}

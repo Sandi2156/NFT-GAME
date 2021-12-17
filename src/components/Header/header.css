@@ -1,0 +1,40 @@
+.headerContainer {
+    position: sticky;
+    top: 0;
+}
+
+.header {
+    color: white;
+    background-color: #1A202C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    border-bottom: 0.1px solid rgb(68, 68, 68);
+}
+
+.logo{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+.logo span{
+    font-style: italic;
+}
+
+.headerButton{
+    background-color: white;
+    color: black;
+    padding: 8px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.connected {
+    cursor: not-allowed;
+}
